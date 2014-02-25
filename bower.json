@@ -1,0 +1,23 @@
+{
+  "name": "videoboard",
+  "version": "0.0.0",
+  "authors": [
+    "Mauro Bianchi <bianchimro@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.10",
+    "bootstrap": "~3.1.1",
+    "angular": "~1.2.13",
+    "less": "~1.6.3",
+    "angular-route": "~1.2.13"
+  }
+}
