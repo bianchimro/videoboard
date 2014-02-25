@@ -14,7 +14,7 @@ directives.directive('videoAction', function() {
     //template: '<p style="background-color:red">Hello World</p>',
     link: function(scope, elem, attrs) {
         
-        var target = attrs.target;
+        var target = attrs.videoTarget;
         scope.playing = false;
             
         scope.play = function(){

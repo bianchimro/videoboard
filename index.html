@@ -19,9 +19,9 @@
     
     <div class="xcontainer">
       
-      <button class="btn btn-primary" video-action target="#video" ng-click="play()">Play</button>
-      <button class="btn btn-primary" video-action target="#video" ng-click="pause()">Pause</button>
-      <button class="btn btn-primary" video-action target="#video" ng-click="restart()">Restart</button>
+      <button class="btn btn-primary" video-action video-target="#video" ng-click="play()">Play</button>
+      <button class="btn btn-primary" video-action video-target="#video" ng-click="pause()">Pause</button>
+      <button class="btn btn-primary" video-action video-target="#video" ng-click="restart()">Restart</button>
 
 
       <video id='video' style="width:100%"
@@ -63,9 +63,9 @@
       >
       <h4>Another message from second 18 to second 35. <a href="#" video-action target="#video" ng-click="pause()" ng-show="playing==true">Pause the video from here</a>
         <span ng-show="playing==false">
-          <a href="#" video-action target="#video" ng-click="play()" >Now let it play</a>
+          <a href="#" video-action video-target="#video" ng-click="play()" >Now let it play</a>
           or
-          <a href="#" video-action target="#video" ng-click="restart()">Restart it</a>
+          <a href="#" video-action video-target="#video" ng-click="restart()">Restart it</a>
         </span>
       </h4>
     </div>
